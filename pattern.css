@@ -1,0 +1,111 @@
+/* style.css */
+body {
+    margin: 30px;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+#container {
+    margin-top: 30px;
+}
+
+#buttonGrid {
+    border: 5px solid #606060;
+    width: 450px;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+}
+
+.button {
+    border: 5px solid transparent;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    margin: 25px;
+    float: left;
+    text-align: center;
+    font-size: 3em;
+}
+
+.button .dot {
+    border: 1px solid #606060;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 18px;
+    height: 18px;
+    margin: 35px;
+}
+
+.button:hover {
+    border-color: #CCC;
+}
+
+.selected {
+    border-color: #37D202;
+}
+
+#buttonGrid.error .button .selected{
+    border-color: #E9021E;
+}
+
+#notification {
+    border: 1px dashed #CCC;
+    width: 428px;
+    padding: 15px;
+    height: 10px;
+    margin: 30px auto 0;
+    background-color: #F9F9F9;
+    font-size: 0.75em;
+    color: #00CC00;
+
+}
+
+#controls{
+	border: 1px dashed #CCC;
+    width: 428px;
+    padding: 15px;
+    height: 10px;
+    margin: 00px auto 0;
+    background-color: #F9F9F9;
+    font-size: 0.75em;
+    color: #00CC00;
+}
+
+.thin-line {
+    background-color: red;
+    width: 1px;
+    position: absolute;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+input{
+	width:210px;
+	margin-top: -15px;
+	padding: 10px 26px;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.clearfix {
+    zoom: 1; 
+}
